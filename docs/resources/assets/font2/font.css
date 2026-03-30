@@ -1,0 +1,76 @@
+
+@font-face {
+    font-family: 'NanumMyeongjo';
+    src: url('/resources/assets/font2/NanumMyeongjo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SeoulHangangL';
+    src: url('/resources/assets/font2/SeoulHangangL.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GowunBatang';
+    src: url('/resources/assets/font2/GowunBatang-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NanumSquare';
+    src: url('/resources/assets/font2/NanumSquareRoundR.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TheJamsil';
+    src: url('/resources/assets/font2/The-Jamsil-2-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SeoulNamsanL';
+    src: url('/resources/assets/font2/SeoulNamsanL.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HakgyoansimWoojuR';
+    src: url('/resources/assets/font2/HakgyoansimWoojuR.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Binggrae';
+    src: url('/resources/assets/font2/Binggrae.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'IMHyemin';
+    src: url('/resources/assets/font2/IM_Hyemin-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'JGaegujaengiLight';
+    src: url('/resources/assets/font2/J개구쟁이-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'KNPSKkomi';
+    src: url('/resources/assets/font2/KNPSKkomi.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

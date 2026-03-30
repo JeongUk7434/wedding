@@ -1,0 +1,107 @@
+@font-face {
+    font-family: 'JostLight';
+    src: url('/resources/assets/main-cover-fonts/3/Jost-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'JostRegular';
+    src: url('/resources/assets/main-cover-fonts/3/Jost-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'BritishClassical';
+    src: url('/resources/assets/main-cover-fonts/4/BritishClassical-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Photograph';
+    src: url('/resources/assets/main-cover-fonts/4/Photograph-Signature.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'DiamondBridge';
+    src: url('/resources/assets/main-cover-fonts/5/Diamond-Bridge.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PERTILI';
+    src: url('/resources/assets/main-cover-fonts/6/PERTILI.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ShapingHeart';
+    src: url('/resources/assets/main-cover-fonts/7/Shaping-Heart.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'CHAVTER';
+    src: url('/resources/assets/main-cover-fonts/8/CHAVTER.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GastelaRegular';
+    src: url('/resources/assets/main-cover-fonts/9/Gastela-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ltafficherneuecaption';
+    src: url('/resources/assets/main-cover-fonts/10/ltafficherneue-caption.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ltafficherneuedisplay';
+    src: url('/resources/assets/main-cover-fonts/10/ltafficherneue-display.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'fogtwono5';
+    src: url('/resources/assets/main-cover-fonts/11/fogtwono5.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'jelymist';
+    src: url('/resources/assets/main-cover-fonts/12/jelymist.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'cafe24syongsyong';
+    src: url('/resources/assets/main-cover-fonts/13/cafe24syongsyong.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'pinkyregular';
+    src: url('/resources/assets/main-cover-fonts/13/pinky-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'midnightriderregular';
+    src: url('/resources/assets/main-cover-fonts/14/midnightrider-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'candeliaregular';
+    src: url('/resources/assets/main-cover-fonts/15/candelia-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
