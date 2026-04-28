@@ -1,8 +1,8 @@
 <html lang="en" style="scrollbar-width: none;"><head>
     <meta charset="UTF-8">
-    <title>신랑 이정욱 - 신부 양내윤</title>
+    <title>신랑 이정욱 - 신부 양내윤[하리가에 토모미(張替 友美)]</title>
     <meta name="google" content="notranslate">
-    <meta property="og:title" content="이정욱 ♥ 양내윤 결혼합니다.">
+    <meta property="og:title" content="이정욱 ♥ 양내윤[하리가에 토모미(張替 友美)] 결혼합니다.">
     <meta property="og:description" content="5월 2일 토요일 오전 11시">
     <meta property="og:image" content="https://jeonguk7434.github.io/wedding/upload/2024/11/29/edit-image.jpg_602_edit_main17.jpg"> <!-- 썸네일 이미지 URL -->
     <meta property="og:url" content="https://pwinvitation.com/lfQRuYLmTvPw">
@@ -1127,12 +1127,12 @@
 <div class="sample-inner p0 mb70">
                     <div class="sample-top sample-top01">
                     
-                    	<p class="all-fs4 all-ff" id="main3_1p">이정욱</p>
+                    	<p class="all-fs4 all-ff" id="main3_1p" style="font-weight:700; text-align:center;">이정욱<br><span style="font-size:0.80em !important; font-weight:400; opacity:0.75;">[イジョンウク]<br>(李政昱)</span></p>
                         <div>
                             <span class=" all-fs6 all-ff" id="main1_span">05</span>
                             <span class=" all-fs6 all-ff" id="main1_span">02</span>
                         </div>
-                        <p class="all-fs4 all-ff" id="main3_1p">양내윤</p>
+                        <p class="all-fs4 all-ff" id="main3_1p" style="font-weight:700; text-align:center;">양내윤<br><span style="font-size:0.80em !important; font-weight:400; letter-spacing:0; opacity:0.75;">[하리가에 토모미]<br>(張替 友美)</span></p>
                         <input type="hidden" id="first_value" value="0">
                     	
                         
@@ -1199,8 +1199,9 @@
 		                            <div class=" all-fs3 all-ff" style="width: fit-content;display: flex; align-items: center;letter-spacing: 4.4px;">
 		                                이윤규 · 김혜경 의 장남 정욱
 		                            </div>
-		                            <div class=" all-fs3 all-ff" style="width: fit-content;display: flex; margin-top: 15px; center;align-items: center;letter-spacing: 4.4px;">
+		                            <div class=" all-fs3 all-ff" style="width: fit-content;display: flex; flex-direction:column; margin-top: 15px; align-items: center;letter-spacing: 4.4px;">
 		                                양동영 · 張替 和代 의 장녀 내윤
+		                                <span style="font-size:0.75em !important; letter-spacing:2px; opacity:0.75; margin-top:4px; margin-right:54px;">&ensp;하리가에 토모미</span>
 		                            </div>
 	                            </div>
 	                        </div>
@@ -2870,28 +2871,34 @@
         // 카카오 SDK 초기화
         window.addEventListener("load", function () {
 		    if (!Kakao.isInitialized()) {
-			      Kakao.init('bfc25c95adeb1a1e99d6fbd50e332dee');
+			      Kakao.init('a0089aec624c27e79fd11ccd5edabca5');
 			    }
 		});
 		
         function shareOnKakao() {
         	if (!Kakao.isInitialized()) {
-        	    Kakao.init('bfc25c95adeb1a1e99d6fbd50e332dee');
+        	    Kakao.init('a0089aec624c27e79fd11ccd5edabca5');
         	}
         	
-        	var word = window.location.href;
-        	
-        	var timestamp = new Date().getTime();
-        	Kakao.Share.sendCustom({
-				templateId: 114817,
-				templateArgs: {
-					TITLE : '이정욱 ♥ 양내윤 결혼합니다.'
-					, DESC : '5월 2일 토요일 오전 11시 \n아뜰리에 수목원 더원웨딩'
-					, THU : encodeURI('/upload/2024/11/29/edit-image.jpg_602_edit_main16.jpg?t=' + timestamp)
-					, linkUrl : 'lfQRuYLmTvPw' 
-					, linkUrl2 : '?menu=location&mapMode=0&lat=35.8567&lng=128.5178&dlevel=15&enc=b64mapMode'
-				},
-			});
+        	Kakao.Share.sendDefault({
+        		objectType: 'feed',
+        		content: {
+        			title: '이정욱 ♥ 양내윤 결혼합니다.',
+        			description: '5월 2일 토요일 오전 11시\n아뜰리에 수목원 더원웨딩',
+        			imageUrl: 'https://jeonguk7434.github.io/wedding/upload/2024/11/29/edit-image.jpg_602_edit_main17.jpg',
+        			link: {
+        				mobileWebUrl: 'https://jeonguk7434.github.io/wedding/',
+        				webUrl: 'https://jeonguk7434.github.io/wedding/',
+        			},
+        		},
+        		buttons: [{
+        			title: '청첩장 보기',
+        			link: {
+        				mobileWebUrl: 'https://jeonguk7434.github.io/wedding/',
+        				webUrl: 'https://jeonguk7434.github.io/wedding/',
+        			},
+        		}],
+        	});
         	
         }
         
